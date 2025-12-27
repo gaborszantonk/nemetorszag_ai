@@ -7,14 +7,26 @@
    <style>
       body {background-color:lightgreen;} 
      h1 {color:yellow}
+      .container {display:flex; flex-direction: column;}
 @media screen and (min-width: 600px) {
   body {background-color:blue;}
-  h1 {color:white}
+  h1 {color:white; text-alig:center}
+  .container {display:flex; flex-direction: row;}
+  img {width:100%}
 }
    
    </style>
   </head>
   <body>
     <h1>Der Boss sucht ein Nebenjob</h1>
+    <div class="container">
+      <div class="pict" >
+        <img src="./pictures/1.jpg">       
+      </div>
+       <div class="pict" >
+        <img src="./pictures/1.jpg">       
+      </div>
+    </div>
+    
   </body>
 </html>
